@@ -1,4 +1,4 @@
-\documentclass[final]{cpecmu}
+\documentclass[semifinal]{cpecmu}
 
 %% This is a sample document demonstrating how to use the CPECMU
 %% project template. If you are having trouble, see "cpecmu.pdf" for
@@ -29,6 +29,7 @@
 %% Needed just by this example, but maybe not by most reports
 \usepackage{afterpage} % for outputting
 \usepackage{pdflscape} % for landscape figures and tables. 
+\usepackage{hyperref} % for better URL typesetting
 
 %% Some other useful packages. Look these up to find out how to use
 %% them.
@@ -44,7 +45,7 @@
 %% the tolerance to 9999
 % \tolerance=9999
 
-\bibliographystyle{plain}
+\bibliographystyle{unsrt}
 % \bibliographystyle{IEEEbib}
 
 % \renewcommand{\topfraction}{0.85}
@@ -91,10 +92,10 @@
 \include{chapters/appendix}
 
 %% Display glossary (optional) -- need glossary option.
-\ifglossary\glossarypage\fi
+% \ifglossary\glossarypage\fi
 
 %% Display index (optional) -- need idx option.
-\ifindex\indexpage\fi
+% \ifindex\indexpage\fi
 
 \begin{biosketch}
 \begin{center}
